@@ -4,7 +4,7 @@ import typescript from "rollup-plugin-typescript2";
 import replace from "@rollup/plugin-replace";
 import serve from "rollup-plugin-serve";
 
-import pkg from "package.json";
+import pkg from "./package.json";
 
 const isDev = process.env.NODE_ENV === "development";
 

@@ -1,0 +1,56 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.2.4",
+  "author": "Inlve",
+  "license": "MIT",
+  "engineStrict": true,
+  "engines": {
+    "node": "16"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "init": "git clone https://github.com/type-challenges/type-challenges.git",
+    "lint": "eslint --ext .ts --format=pretty",
+    "dev": "yarn clean && cross-env NODE_ENV=development rollup -w -c rollup.config.js --bundleConfigAsCjs",
+    "build": "yarn clean && cross-env NODE_ENV=production rollup -c rollup.config.js --bundleConfigAsCjs"
+  },
+  "files": [
+    "dist",
+    "index.es.js",
+    "index.umd.js"
+  ],
+  "main": "dist/index.es.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.umd.js",
+  "jsnext:main": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@commitlint/cli": "~17.2.0",
+    "@commitlint/config-angular": "~17.2.0",
+    "@rollup/plugin-replace": "~5.0.1",
+    "@types/eslint": "^8",
+    "@types/node": "~18.11.9",
+    "@types/prettier": "^2",
+    "@types/rimraf": "^3",
+    "@typescript-eslint/eslint-plugin": "~5.42.1",
+    "@typescript-eslint/parser": "~5.42.1",
+    "@yarnpkg/sdks": "~3.0.0-rc.28",
+    "cross-env": "~7.0.3",
+    "eslint": "~8.27.0",
+    "eslint-config-prettier": "~8.5.0",
+    "eslint-formatter-pretty": "~4.1.0",
+    "eslint-plugin-import": "~2.26.0",
+    "eslint-plugin-prettier": "~4.2.1",
+    "eslint-plugin-promise": "~6.1.1",
+    "husky": "~8.0.2",
+    "lint-staged": "~13.0.3",
+    "prettier": "~2.7.1",
+    "rimraf": "~3.0.2",
+    "rollup": "~3.2.5",
+    "rollup-plugin-serve": "~2.0.1",
+    "rollup-plugin-typescript2": "~0.34.1",
+    "tslib": "~2.4.1",
+    "typescript": "~4.8.4"
+  }
+}

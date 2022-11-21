@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>pixel-char</title>
+    <style>
+      canvas {
+        border: 1px solid red;
+      }
+
+      #app {
+        display: inline-block;
+        border: 1px solid red;
+      }
+      #app > div {
+        line-height: 0;
+      }
+
+      #app span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+<!--      <canvas id="canvas"></canvas>-->
+    </div>
+
+    <div>
+      <canvas id="test"></canvas>
+    </div>
+
+    <div id="app"></div>
+
+    <script src="./dist/index.umd.js"></script>
+    <script>
+      const test = document.getElementById('test');
+      const ctx = test.getContext('2d');
+      ctx.textBaseline = 'middle';
+      ctx.textAlign = 'center';
+      ctx.fillStyle = '#000000';
+      ctx.font = `16px sans-serif`;
+      const str = 'K F C';
+      const textMetrics = ctx.measureText(str);
+      ctx.fillText(str, str.length / 2, 16);
+      console.log({ textMetrics });
+    </script>
+    <script>
+      function start() {
+        const fragment = document.createDocumentFragment();
+        const app = document.getElementById('app');
+        const canvas = document.getElementById('canvas');
+
+        const pixels = pc.genPixel('KFC', {
+          canvas,
+        });
+
+        for (let i = 0, len = pixels.length; i < len; i += 1) {
+          const rows = pixels[i];
+          const div = document.createElement('div');
+          div.dataset.row = i;
+          for (let j = 0, length = rows.length; j < length; j += 1) {
+            const item = rows[j];
+            const span = document.createElement('span');
+            span.style.backgroundColor = item.rgba;
+            span.dataset.row = i;
+            span.dataset.column = j;
+            div.append(span);
+          }
+          fragment.append(div);
+        }
+
+        app.append(fragment);
+      }
+
+      // start();
+    </script>
+  </body>
+</html>

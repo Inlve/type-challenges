@@ -19,5 +19,7 @@
     "es6": true
   },
   "settings": {},
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off"
+  }
 }

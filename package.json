@@ -28,6 +28,7 @@
     "@commitlint/cli": "~17.2.0",
     "@commitlint/config-angular": "~17.2.0",
     "@rollup/plugin-replace": "~5.0.1",
+    "@type-challenges/utils": "~0.1.1",
     "@types/eslint": "^8",
     "@types/node": "~18.11.9",
     "@types/prettier": "^2",

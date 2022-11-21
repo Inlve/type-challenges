@@ -460,6 +460,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@type-challenges/utils@npm:~0.1.1":
+  version: 0.1.1
+  resolution: "@type-challenges/utils@npm:0.1.1"
+  checksum: ded642e9f1c1329e74e94a89faa83df53601a6c044c9a7e3776affc2535b3026a05582c55f8419ea367d97f83920f92e933f017d5cc942154a15723ae5c8f9a7
+  languageName: node
+  linkType: hard
+
 "@types/cacheable-request@npm:^6.0.1":
   version: 6.0.3
   resolution: "@types/cacheable-request@npm:6.0.3"
@@ -4741,6 +4748,7 @@ __metadata:
     "@commitlint/cli": ~17.2.0
     "@commitlint/config-angular": ~17.2.0
     "@rollup/plugin-replace": ~5.0.1
+    "@type-challenges/utils": ~0.1.1
     "@types/eslint": ^8
     "@types/node": ~18.11.9
     "@types/prettier": ^2

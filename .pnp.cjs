@@ -31,6 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.2.0"],\
             ["@commitlint/config-angular", "npm:17.2.0"],\
             ["@rollup/plugin-replace", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:5.0.1"],\
+            ["@type-challenges/utils", "npm:0.1.1"],\
             ["@types/eslint", "npm:8.4.10"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/prettier", "npm:2.7.1"],\
@@ -584,6 +585,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tsconfig-node16-npm-1.0.3-6a4a30eda2-3a8b657dd0.zip/node_modules/@tsconfig/node16/",\
           "packageDependencies": [\
             ["@tsconfig/node16", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@type-challenges/utils", [\
+        ["npm:0.1.1", {\
+          "packageLocation": "./.yarn/cache/@type-challenges-utils-npm-0.1.1-50268fdeb7-ded642e9f1.zip/node_modules/@type-challenges/utils/",\
+          "packageDependencies": [\
+            ["@type-challenges/utils", "npm:0.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5657,6 +5667,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@commitlint/cli", "npm:17.2.0"],\
             ["@commitlint/config-angular", "npm:17.2.0"],\
             ["@rollup/plugin-replace", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:5.0.1"],\
+            ["@type-challenges/utils", "npm:0.1.1"],\
             ["@types/eslint", "npm:8.4.10"],\
             ["@types/node", "npm:18.11.9"],\
             ["@types/prettier", "npm:2.7.1"],\

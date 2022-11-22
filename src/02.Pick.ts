@@ -26,7 +26,7 @@
 /* _____________ 你的代码 _____________ */
 
 type MyPick<T, K> = {
-  [key in Extract<keyof T, K>]: T[key];
+  [P in Extract<keyof T, K>]: T[P];
 };
 
 // others:
@@ -44,8 +44,6 @@ import type { Equal, Expect } from '@type-challenges/utils';
 type cases = [
   Expect<Equal<Expected1, MyPick<Todo, 'title'>>>,
   Expect<Equal<Expected2, MyPick<Todo, 'title' | 'completed'>>>,
-  // @ts-ignore
-  // @ts-expect-error
   MyPick<Todo, 'title' | 'completed' | 'invalid'>,
 ];
 

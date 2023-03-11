@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:6.1.1"],\
             ["husky", "npm:8.0.2"],\
             ["lint-staged", "npm:13.0.3"],\
-            ["prettier", "npm:2.7.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["rimraf", "npm:3.0.2"],\
             ["rollup", "npm:3.2.5"],\
             ["rollup-plugin-serve", "npm:2.0.1"],\
@@ -2432,7 +2432,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/prettier", "npm:2.7.1"],\
             ["eslint", "npm:8.27.0"],\
             ["eslint-config-prettier", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:8.5.0"],\
-            ["prettier", "npm:2.7.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["prettier-linter-helpers", "npm:1.0.0"]\
           ],\
           "packagePeers": [\
@@ -4637,10 +4637,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.7.1", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.7.1-d1f40f5e1a-55a4409182.zip/node_modules/prettier/",\
+        ["npm:2.8.4", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.4-ba64a351d1-c173064bf3.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.7.1"]\
+            ["prettier", "npm:2.8.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5684,7 +5684,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-promise", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:6.1.1"],\
             ["husky", "npm:8.0.2"],\
             ["lint-staged", "npm:13.0.3"],\
-            ["prettier", "npm:2.7.1"],\
+            ["prettier", "npm:2.8.4"],\
             ["rimraf", "npm:3.0.2"],\
             ["rollup", "npm:3.2.5"],\
             ["rollup-plugin-serve", "npm:2.0.1"],\

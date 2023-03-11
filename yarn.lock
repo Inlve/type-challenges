@@ -4157,9 +4157,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:~3.2.5":
-  version: 3.2.5
-  resolution: "rollup@npm:3.2.5"
+"rollup@npm:~3.19.1":
+  version: 3.19.1
+  resolution: "rollup@npm:3.19.1"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -4167,7 +4167,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 1779b778fe4b14f80a995a641d3a89a76e3651170536192022dce1821f1241ee49496353655aa812dc8f8334c89a302ad957b757d4370cf57e41ca270bb394fd
+  checksum: f78198c6de224b26650c70b16db156762d1fcceeb375d34fb2c76fc5b23a78f712c3c881d3248e6f277a511589e20d50c247bcf5c7920f1ddc0a43cadf9f0140
   languageName: node
   linkType: hard
 
@@ -4767,7 +4767,7 @@ __metadata:
     lint-staged: ~13.0.3
     prettier: ~2.8.4
     rimraf: ~3.0.2
-    rollup: ~3.2.5
+    rollup: ~3.19.1
     rollup-plugin-serve: ~2.0.1
     rollup-plugin-typescript2: ~0.34.1
     tslib: ~2.4.1

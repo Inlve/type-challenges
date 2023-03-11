@@ -28,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "~17.2.0",
     "@commitlint/config-angular": "~17.2.0",
+    "@microsoft/eslint-formatter-sarif": "~3.0.0",
     "@rollup/plugin-replace": "~5.0.1",
     "@type-challenges/utils": "~0.1.1",
     "@types/eslint": "^8",

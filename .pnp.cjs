@@ -54,7 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup", "npm:3.19.1"],\
             ["rollup-plugin-serve", "npm:2.0.1"],\
             ["rollup-plugin-typescript2", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:0.34.1"],\
-            ["tslib", "npm:2.4.1"],\
+            ["tslib", "npm:2.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\
@@ -5765,6 +5765,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["tslib", "npm:2.4.1"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.5.0", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.5.0-bb364efebd-ae3ed5f9ce.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.5.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["tsutils", [\
@@ -5853,7 +5860,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["rollup", "npm:3.19.1"],\
             ["rollup-plugin-serve", "npm:2.0.1"],\
             ["rollup-plugin-typescript2", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:0.34.1"],\
-            ["tslib", "npm:2.4.1"],\
+            ["tslib", "npm:2.5.0"],\
             ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\

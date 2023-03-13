@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:2.26.0"],\
             ["eslint-plugin-prettier", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:4.2.1"],\
             ["eslint-plugin-promise", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:6.1.1"],\
-            ["husky", "npm:8.0.2"],\
+            ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.0.3"],\
             ["prettier", "npm:2.8.4"],\
             ["rimraf", "npm:3.0.2"],\
@@ -3393,10 +3393,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["husky", [\
-        ["npm:8.0.2", {\
-          "packageLocation": "./.yarn/cache/husky-npm-8.0.2-46c70b41ed-e101656fcb.zip/node_modules/husky/",\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
           "packageDependencies": [\
-            ["husky", "npm:8.0.2"]\
+            ["husky", "npm:8.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5846,7 +5846,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-import", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:2.26.0"],\
             ["eslint-plugin-prettier", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:4.2.1"],\
             ["eslint-plugin-promise", "virtual:471d2ab67fc91193eddde0e59eed2b6c3db2e0105c2c5b172cc7883488824043d056a705b24d1a1107f4f46ed617a9101476ea45bc62afe4dd7071b1c9df4641#npm:6.1.1"],\
-            ["husky", "npm:8.0.2"],\
+            ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.0.3"],\
             ["prettier", "npm:2.8.4"],\
             ["rimraf", "npm:3.0.2"],\
